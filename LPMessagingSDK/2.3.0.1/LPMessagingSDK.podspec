@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks.git/LPMessagingSDK", :tag => "2.3.0.1" }
+  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks.git", :tag => "2.3.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    s.resource = "LPMessagingSDKModels.bundle"
-    s.ios.vendored_frameworks = '*.framework'
+    s.resource = "LPMessagingSDK/LPMessagingSDKModels.bundle"
+    s.ios.vendored_frameworks = 'LPMessagingSDK/*.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    s.resource = "LPMessagingSDKModels.bundle"
-    s.ios.vendored_frameworks = '*.framework'
+    s.resource = "LPMessagingSDK/LPMessagingSDKModels.bundle"
+    s.ios.vendored_frameworks = 'LPMessagingSDK/*.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
