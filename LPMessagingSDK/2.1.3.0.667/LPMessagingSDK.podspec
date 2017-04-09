@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks.git/LPMessagingSDK", :tag => "2.1.3.0.667" }
+  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks", :tag => "2.1.3.0.667" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
