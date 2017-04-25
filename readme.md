@@ -1,12 +1,23 @@
-How to use our pod?
+Installation
+------------
+----------
+####CocoaPods
 
-1. Add the following source to your Podfile:
+CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
 
-source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+    $ gem install cocoapods
 
-2. Add the following pod:
+To integrate Liveperson Messaging SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 
-pod 'LPMessagingSDK'
+    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+    platform :ios, '10.0'
+    use_frameworks!
+    
+    target '<Your Target Name>' do
+        pod 'LPMessagingSDK'
+    end
 
-3. Save your Podfile
-4. Go to terminal -> run "Pod install"
+Then, run the following command:
+
+    $ pod install
+
