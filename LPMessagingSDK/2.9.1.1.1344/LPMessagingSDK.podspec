@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "LPMessagingSDK"
-  s.version      = "2.9.1.1.1339"
+  s.version      = "2.9.1.1.1344"
   s.summary      = "LivePerson Mobile library for iOS"
   s.homepage     = "https://connect.liveperson.com/servlet/JiveServlet/download/3880-4-18582/Messaging_SDK_iOS_V01.zip"
   s.author       = { "LPMObile" => "mobile@liveperson.com" }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks", :tag => "2.9.1.1.1339" }
+  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks", :tag => "2.9.1.1.1344" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
