@@ -22,10 +22,20 @@ Then, run the following command:
     $ pod install
     
 
-#### Discontinued Xcode Releases
+#### Discontinued Releases
 
 * 4.0.0.0.100-Swift-5.0
 * 3.2.3.0.2003-xcode10b4
 * 3.2.2.0.1973-xcode10b4
 * 3.1.0.21.1601-xcode93
 * 2.8.4.5.1297-xcode91
+
+**Note:**  Target a specific version in pods, specify the version like the below (target version '4.0.0.0.100-Swift-5.0')
+
+    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+    platform :ios, '10.0'
+    use_frameworks!
+
+    target '<Your Target Name>' do
+        pod 'LPMessagingSDK',  '4.0.0.0.100-Swift-5.0'
+    end
