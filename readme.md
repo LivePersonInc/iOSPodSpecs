@@ -22,7 +22,7 @@ Then, run the following command:
     $ pod install
     
 
-#### Discontinued Releases
+#### Limited Releases
 
 * 4.0.0.0.100-Swift-5.0
 * 3.2.3.0.2003-xcode10b4
