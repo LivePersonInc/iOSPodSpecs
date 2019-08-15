@@ -25,6 +25,7 @@ Then, run the following command:
 #### Limited Releases
 
 * 4.0.0.0.100-Swift-5.0
+* 4.0.0.0.55-Swift-4.2
 * 3.2.3.0.2003-xcode10b4
 * 3.2.2.0.1973-xcode10b4
 * 3.1.0.21.1601-xcode93
