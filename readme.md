@@ -24,6 +24,7 @@ Then, run the following command:
 
 #### Limited Releases
 
+* 4.1.0.0.250-Swift-5.0
 * 4.0.0.0-Swift-5.1-Beta-6
 * 4.0.0.0.100-Swift-5.0
 * 4.0.0.0.55-Swift-4.2
