@@ -5,25 +5,35 @@ Installation
 
 CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
 
-    $ gem install cocoapods
+$ gem install cocoapods
 
 To integrate Liveperson Messaging SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 
-    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '10.0'
-    use_frameworks!
-    
-    target '<Your Target Name>' do
-        pod 'LPMessagingSDK'
-    end
+source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod 'LPMessagingSDK'
+end
 
 Then, run the following command:
 
-    $ pod install
-    
+$ pod install
 
-#### Limited Releases
 
+### Targeting a specific version
+target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
+
+source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod 'LPMessagingSDK',  '4.0.0.0.100-Swift-5.0'
+end
+
+### Limited Releases
 * 4.1.0.0.250-Swift-5.0
 * 4.0.0.0-Swift-5.1-Beta-6
 * 4.0.0.0.100-Swift-5.0
@@ -33,12 +43,6 @@ Then, run the following command:
 * 3.1.0.21.1601-xcode93
 * 2.8.4.5.1297-xcode91
 
-**Note:**  Target a specific version in pods, specify the version like the below (target version '4.0.0.0.100-Swift-5.0')
 
-    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '10.0'
-    use_frameworks!
-
-    target '<Your Target Name>' do
-        pod 'LPMessagingSDK',  '4.0.0.0.100-Swift-5.0'
-    end
+### Want the Frameworks without CocoaPods (manually)?
+Check the [Frameworks Repository](https://github.com/LivePersonInc/iOSFrameworks)
