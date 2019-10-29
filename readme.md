@@ -10,7 +10,7 @@ CocoaPods is a dependency manager for Cocoa projects. You can install it with th
 To integrate Liveperson Messaging SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 
     source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '10.0'
+    platform :ios, '11.0'
     use_frameworks!
 
     target '<Your Target Name>' do
@@ -26,7 +26,7 @@ Then, run the following command:
 target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
 
     source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '10.0'
+    platform :ios, '11.0'
     use_frameworks!
 
     target '<Your Target Name>' do
