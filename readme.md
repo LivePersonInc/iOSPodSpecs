@@ -39,6 +39,7 @@ target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
 * 4.1.0.0.250-Swift-5.0
 * 4.0.0.0-Swift-5.1-Beta-6
 * 4.0.0.0.100-Swift-5.0
+* 4.0.0.0.56-Swift-4.2-Signed
 * 4.0.0.0.55-Swift-4.2
 * 3.2.3.0.2003-xcode10b4
 * 3.2.2.0.1973-xcode10b4
