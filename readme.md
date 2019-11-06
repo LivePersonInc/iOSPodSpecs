@@ -34,6 +34,7 @@ target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
     end
 
 ### Limited Releases
+* 5.0.0.960-Swift-5.1.2
 * 5.0.0.944-Swift-5.0.1
 * 4.1.0.0.710-Swift-5.1
 * 4.1.0.0.250-Swift-5.0
