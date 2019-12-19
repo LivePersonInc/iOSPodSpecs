@@ -47,6 +47,8 @@ target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
 * 3.1.0.21.1601-xcode93
 * 2.8.4.5.1297-xcode91
 
+### Additional Releases
+* 5.0.1.1013-Swift-5.1
 
 ### Want the Frameworks without CocoaPods (manually)?
 Check the [Frameworks Repository](https://github.com/LivePersonInc/iOSFrameworks)
