@@ -23,7 +23,7 @@ Then, run the following command:
 
 
 ### Targeting a specific version
-target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
+target the version like the below (targeting '5.1.2.1107')
 
     source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
     platform :ios, '11.0'
@@ -48,6 +48,8 @@ target the version like the below (targeting '4.0.0.0.100-Swift-5.0')
 * 2.8.4.5.1297-xcode91
 
 ### Additional Releases
+* 5.1.2.1107
+* 5.1.2.1105-Swift-5.1.2
 * 5.1.1.1076-Swift-5.1.2
 * 5.1.0.1024-Swift-5.1.2
 * 5.0.1.1013-Swift-5.1
