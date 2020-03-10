@@ -30,7 +30,7 @@ target the version like the below (targeting '5.1.2.1107')
     use_frameworks!
 
     target '<Your Target Name>' do
-        pod 'LPMessagingSDK',  '4.0.0.0.100-Swift-5.0'
+        pod 'LPMessagingSDK',  '5.1.2.1107'
     end
 
 ### Limited Releases
