@@ -48,6 +48,7 @@ target the version like the below (targeting '5.1.2.1107')
 * 2.8.4.5.1297-xcode91
 
 ### Additional Releases
+* 5.1.2.1109 (Swift-5.2)
 * 5.1.2.1107
 * 5.1.2.1105-Swift-5.1.2
 * 5.1.1.1076-Swift-5.1.2
