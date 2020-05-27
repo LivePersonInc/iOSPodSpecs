@@ -5,34 +5,40 @@ Installation
 ​
 CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
 ​
-    $ gem install cocoapods
+```sh
+$ gem install cocoapods
+```
 ​
 To integrate Liveperson Messaging SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 ​
-    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '11.0'
-    use_frameworks!
+```ruby
+source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+platform :ios, '11.0'
+use_frameworks!
 ​
-    target '<Your Target Name>' do
-    pod 'LPMessagingSDK'
-    end
-​
+target '<Your Target Name>' do
+pod 'LPMessagingSDK'
+end
+```
 Then, run the following command:
 ​
-    $ pod install
-​
+```sh
+$ pod install
+```
 ​
 ### Targeting a specific version
-target the version like the below (targeting '5.1.2.1107')
+target the version like the below (targeting '5.2.0.1078')
 ​
-    source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
-    platform :ios, '11.0'
-    use_frameworks!
+```ruby
+source 'https://github.com/LivePersonInc/iOSPodSpecs.git'
+platform :ios, '11.0'
+use_frameworks!
 ​
-    target '<Your Target Name>' do
-        pod 'LPMessagingSDK',  '5.1.2.1107'
-    end
-​
+target '<Your Target Name>' do
+    pod 'LPMessagingSDK','5.2.0.1078'
+end
+```
+
 ### Limited Releases
 * 5.0.0.960-Swift-5.1.2
 * 5.0.0.944-Swift-5.0.1
