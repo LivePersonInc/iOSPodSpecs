@@ -61,6 +61,7 @@ end
 * 5.1.1.1076-Swift-5.1.2
 * 5.1.0.1024-Swift-5.1.2
 * 5.0.1.1013-Swift-5.1
+* 5.2.1.1179-Swift-5.1.3
 ​
 ### Want the Frameworks without CocoaPods (manually)?
 Check the [Frameworks Repository](https://github.com/LivePersonInc/iOSFrameworks)
