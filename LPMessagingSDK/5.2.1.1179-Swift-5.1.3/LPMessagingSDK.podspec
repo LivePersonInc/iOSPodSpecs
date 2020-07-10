@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "LPMessagingSDK"
-  s.version      = "5.2.0.1078"
+  s.version      = "5.2.1.1179-Swift-5.1.3"
   s.summary      = "LivePerson Mobile library for iOS"
   s.homepage     = "https://connect.liveperson.com/servlet/JiveServlet/download/3880-4-18582/Messaging_SDK_iOS_V01.zip"
   s.author       = { "LPMObile" => "mobile@liveperson.com" }
