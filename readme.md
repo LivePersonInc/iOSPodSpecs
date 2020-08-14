@@ -55,8 +55,15 @@ end
 * 2.8.4.5.1297-xcode91
 
 ### Additional Releases
-* 5.0.1.1013-Swift-5.1
+* 5.2.0.1077-Swift-5.1.3
+* 5.1.2.1109 (Swift-5.2)
+* 5.1.2.1107
+* 5.1.2.1105-Swift-5.1.2
+* 5.1.1.1076-Swift-5.1.2
 * 5.1.0.1024-Swift-5.1.2
+* 5.0.1.1013-Swift-5.1
+* 5.2.1.1179-Swift-5.1.3
+* 5.2.1.1180​
 
 ### Want the Frameworks without CocoaPods (manually)?
 Check the [Frameworks Repository](https://github.com/LivePersonInc/iOSFrameworks)
