@@ -40,6 +40,7 @@ end
 ```
 
 ### Limited Releases
+* 5.2.1.1300-Swift-5.3-Beta-4
 * 5.0.0.960-Swift-5.1.2
 * 5.0.0.944-Swift-5.0.1
 * 4.1.0.0.710-Swift-5.1
@@ -52,7 +53,7 @@ end
 * 3.2.2.0.1973-xcode10b4
 * 3.1.0.21.1601-xcode93
 * 2.8.4.5.1297-xcode91
-​
+
 ### Additional Releases
 * 5.2.0.1077-Swift-5.1.3
 * 5.1.2.1109 (Swift-5.2)
@@ -62,7 +63,7 @@ end
 * 5.1.0.1024-Swift-5.1.2
 * 5.0.1.1013-Swift-5.1
 * 5.2.1.1179-Swift-5.1.3
-* 5.2.1.1180
-​
+* 5.2.1.1180​
+
 ### Want the Frameworks without CocoaPods (manually)?
 Check the [Frameworks Repository](https://github.com/LivePersonInc/iOSFrameworks)
