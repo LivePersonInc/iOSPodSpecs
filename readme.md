@@ -40,7 +40,7 @@ end
 ```
 
 ### Limited Releases
-* 5.2.1.1300-Swift-5.3-Beta-4
+* 5.2.1.1306-Swift-5.3-Beta-4
 * 5.0.0.960-Swift-5.1.2
 * 5.0.0.944-Swift-5.0.1
 * 4.1.0.0.710-Swift-5.1
