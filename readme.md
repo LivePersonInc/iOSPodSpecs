@@ -10,6 +10,7 @@ $ gem install cocoapods
 ```
 > :warning:  **SDK 6.0 or above uses XCFrameworks for distribution, this are only supported on CocoaPod version 1.9.0 and greater.**
 
+
 To integrate Liveperson Messaging SDK into your Xcode project using CocoaPods, specify it in your Podfile:
 ​
 ```ruby
