@@ -9,24 +9,23 @@ Pod::Spec.new do |s|
   s.name         = "LPMessagingSDK"
   s.version      = "0.0.1"
   s.summary      = "LivePerson Mobile library for iOS"
-  s.homepage     = "https://connect.liveperson.com/servlet/JiveServlet/download/3880-4-18582/Messaging_SDK_iOS_V01.zip"
+  s.homepage     = "https://github.com/LP-Messaging/iOS-Messaging-SDK"
   s.author       = { "LPMObile" => "mobile@liveperson.com" }
 
 
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  # s.platform     = :ios
+  s.platform     = :ios, 13
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/LivePersonInc/iOSFrameworks.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    s.resource = "LPMessagingSDKModels.bundle"
     s.preserve_paths = 'LPMessagingSDK.xcframework', 'LPMessagingSDK-dSYMs/LPMessagingSDK.framework.ios-arm64.dSYM', 'LPMessagingSDK-dSYMs/LPMessagingSDK.framework.ios-x86_64-simulator.dSYM'
     s.ios.vendored_frameworks = 'LPMessagingSDK.xcframework'
-    s.swift_version = '5.0'
+    s.swift_version = '5.7.1'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.requires_arc = true
