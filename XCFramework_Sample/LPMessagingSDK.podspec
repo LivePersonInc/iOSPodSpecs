@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
     s.preserve_paths = 'LPMessagingSDK.xcframework', 'LPMessagingSDK-dSYMs/LPMessagingSDK.framework.ios-arm64.dSYM', 'LPMessagingSDK-dSYMs/LPMessagingSDK.framework.ios-x86_64-simulator.dSYM'
     s.ios.vendored_frameworks = 'LPMessagingSDK.xcframework'
-    s.swift_version = '5.0'
+    s.swift_version = '5.7.1'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.requires_arc = true
